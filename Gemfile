@@ -7,7 +7,7 @@ gem 'record_tag_helper', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
 #gem 'bootstrap-sass'
 #gem 'jquery'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
@@ -38,8 +38,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.5'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'bootsnap', '>= 1.1.0', require: false
-
-
+gem 'pg'
+gem 'rails_12factor', group: :productio
 gem 'bootstrap-sass-extensions', '~> 2.3', '>= 2.3.2.6'
 group :development, :test do
  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
