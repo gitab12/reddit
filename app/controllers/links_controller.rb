@@ -10,6 +10,7 @@ before_action :authenticate_user!, except: [:index, :show]
   # GET /links/1
   # GET /links/1.json
   def show
+  
   end
 
   # GET /links/new
@@ -61,6 +62,17 @@ before_action :authenticate_user!, except: [:index, :show]
       format.html { redirect_to links_url, notice: 'Link was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+  def upvote
+    @link = Link.find(params[:id])
+    @link.upvote_by current_user
+   redirect_back(fallback_location: root_path)
+  end
+
+  def downvote
+    @link = Link.find(params[:id])
+    @link.downvote_by current_user
+   redirect_back(fallback_location: root_path)
   end
 
   private
