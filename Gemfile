@@ -17,7 +17,7 @@ gem 'devise', '~> 4.5'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 #gem 'pg'
-gem 'rails_12factor', group: :production
+
 gem 'bootstrap-sass-extensions', '~> 2.3', '>= 2.3.2.6'
 group :development, :test do
  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
