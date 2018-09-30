@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-#ruby '2.3.3'
+
 gem 'simple_form'
 gem 'record_tag_helper', '~> 1.0'
 gem 'rails', '~> 5.2.1'
@@ -17,7 +17,7 @@ gem 'devise', '~> 4.5'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 #gem 'pg'
-gem 'rails_12factor', group: :productio
+gem 'rails_12factor', group: :production
 gem 'bootstrap-sass-extensions', '~> 2.3', '>= 2.3.2.6'
 group :development, :test do
  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
