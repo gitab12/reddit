@@ -16,6 +16,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.5'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'railties'
 #gem 'pg'
 
 gem 'bootstrap-sass-extensions', '~> 2.3', '>= 2.3.2.6'
@@ -42,4 +43,4 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-ruby "2.3.3"
+#ruby "2.3.4"
