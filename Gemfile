@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
 gem 'simple_form'
 gem 'record_tag_helper', '~> 1.0'
 gem 'rails', '~> 5.2.1'
@@ -37,4 +38,3 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-#gem ruby 2.3.3
