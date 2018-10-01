@@ -35,7 +35,6 @@ group :production do
 gem 'pg', '~> 1.1', '>= 1.1.3'
 gem "activerecord-postgresql-adapter"
 gem 'rails_12factor'
-
 end
 
 group :test do
