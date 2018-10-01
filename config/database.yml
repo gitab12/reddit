@@ -1,4 +1,4 @@
---- 
+
 default: 
   adapter: postgresql
   encoding: unicode
@@ -7,21 +7,21 @@ default:
   username: postgres
 development: 
   adapter: postgresql
-  database: db/development
+  database: reddit_development
   encoding: unicode
   host: localhost
   password: 12345
   username: postgres
 production: 
   adapter: postgresql
-  database: db/production
+  database: reddit_production
   encoding: unicode
   host: localhost
   password: 12345
   username: postgres
 test: 
   adapter: postgresql
-  database: db/test
+  database: reddit_test
   encoding: unicode
   host: localhost
   password: 12345
