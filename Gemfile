@@ -27,7 +27,7 @@ end
 
 group :development do
    #gem 'sqlite3'
-  gem 'bootstrap-sass'
+  gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
   gem 'web-console', '>= 3.3.0'
 end
 

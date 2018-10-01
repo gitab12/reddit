@@ -226,7 +226,7 @@ DEPENDENCIES
   activerecord-postgresql-adapter
   acts_as_votable (~> 0.10.0)
   bootsnap (>= 1.1.0)
-  bootstrap-sass
+  bootstrap-sass (~> 3.3, >= 3.3.7)
   bootstrap-sass-extensions (~> 2.3, >= 2.3.2.6)
   byebug
   capybara (>= 2.15)
