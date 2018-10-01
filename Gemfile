@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-ruby '>=2.3.3','< 2.5'
+ruby '2.5.1'
 gem 'simple_form'
 gem 'record_tag_helper', '~> 1.0'
 gem 'rails', '~> 5.2.1'
@@ -26,7 +26,7 @@ group :development, :test do
 end
 
 group :development do
-   gem 'sqlite3'
+   #gem 'sqlite3'
   gem 'bootstrap-sass'
   gem 'web-console', '>= 3.3.0'
 end
