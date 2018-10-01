@@ -18,7 +18,7 @@ gem 'acts_as_votable', '~> 0.10.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'railties'
 #gem 'pg'
-
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'bootstrap-sass-extensions', '~> 2.3', '>= 2.3.2.6'
 
 group :development, :test do
@@ -27,7 +27,7 @@ end
 
 group :development do
    #gem 'sqlite3'
-  gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+  
   gem 'web-console', '>= 3.3.0'
 end
 
