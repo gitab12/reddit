@@ -1,0 +1,57 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+
+
+ */
+/* line 19, D:/rails/reddit/app/assets/stylesheets/application.css.scss */
+#logo {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding: 15px 0;
+}
+/* line 25, D:/rails/reddit/app/assets/stylesheets/application.css.scss */
+#logo a {
+  color: #2F363E;
+}
+
+/* line 30, D:/rails/reddit/app/assets/stylesheets/application.css.scss */
+#main_content {
+  padding-bottom: 100px;
+}
+/* line 31, D:/rails/reddit/app/assets/stylesheets/application.css.scss */
+#main_content #content {
+  float: none;
+}
+/* line 35, D:/rails/reddit/app/assets/stylesheets/application.css.scss */
+#main_content .link {
+  padding: 2em 1em;
+  border-bottom: 1px solid #e9e9e9;
+}
+/* line 40, D:/rails/reddit/app/assets/stylesheets/application.css.scss */
+#main_content .link .title a {
+  color: #FF4500;
+}
+/* line 45, D:/rails/reddit/app/assets/stylesheets/application.css.scss */
+#main_content .comments_title {
+  margin-top: 2em;
+}
+/* line 49, D:/rails/reddit/app/assets/stylesheets/application.css.scss */
+#main_content #comments .comment {
+  padding: 1em 0;
+  border-top: 1px solid #E9E9E9;
+}
+/* line 52, D:/rails/reddit/app/assets/stylesheets/application.css.scss */
+#main_content #comments .comment .lead {
+  margin-bottom: 0;
+}
